@@ -1,5 +1,7 @@
 # Projector.js
 
+A Meteor package of [Projector.js by Adam Thomas](https://github.com/adamscybot/projectorjs). 
+
 A small no-dependencies JavaScript library that enables the display of overlays on native HTML5 video elements, or (optionally) video elements powered by [videojs](https://github.com/videojs/video.js/). Overlays can be triggered via time ranges or events. A set of useful overlays is (WIP) included to cover common use cases.
 
 ## Getting Started
@@ -399,10 +401,6 @@ var TextBox = (function () {
     return exports;
 })();
 ```
-
-## Build
-
-To build, use [gulp](https://github.com/gulpjs/gulp/) and simply run `gulp` in the project root.
 
 ## Release History
 - 0.1.1: Strip out demos (move to gh-pages) and minor fixes.
